@@ -1,5 +1,5 @@
 {% set name = "pyedr" %}
-{% set version = "0.7.1" %}
+{% set version = "0.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyedr-{{ version }}.tar.gz
-  sha256: ad7ccdeb739399acd11a25f2d2413ebb46a54223059a2b902ac604d29fabd767
+  sha256: 8a02b7d94f97f99083c489568f7816ee8ed37e2efca0c1ba3a2e4b83e932d5b9
 
 build:
   noarch: python
@@ -24,6 +24,7 @@ requirements:
     - numpy
     - pbr
     - tqdm
+    - mda-xdrlib
 
 test:
   imports:
