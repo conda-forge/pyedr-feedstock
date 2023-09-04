@@ -24,6 +24,7 @@ requirements:
     - numpy
     - pbr
     - tqdm
+    - mda-xdrlib
 
 test:
   imports:
