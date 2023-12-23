@@ -16,13 +16,12 @@ build:
 
 requirements:
   host:
-    - python >=3.6
-    - pbr
+    - python >=3.9
+    - versioningit
     - pip
   run:
-    - python >=3.6
+    - python >=3.9
     - numpy
-    - pbr
     - tqdm
     - mda-xdrlib
 
