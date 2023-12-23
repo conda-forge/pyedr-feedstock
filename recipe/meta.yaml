@@ -1,5 +1,5 @@
 {% set name = "pyedr" %}
-{% set version = "0.7.2" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyedr-{{ version }}.tar.gz
-  sha256: 8a02b7d94f97f99083c489568f7816ee8ed37e2efca0c1ba3a2e4b83e932d5b9
+  sha256: 2d119dc32cd0b0b2a14584626c2349b9dbad132a6bfed32723fe841ed5857fd0
 
 build:
   noarch: python
